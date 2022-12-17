@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -13,17 +13,47 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-right-elements{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0px;
+  justify-content: space-between;
 }
+.header-right-elements a:hover
+{  
+  background-color: gray;
+}
+.header-right-just-text{
+  
+  font-size:medium;
+  margin: 15px;
+  text-decoration: none;
+}
+.header-right-button{
 
+  font: size 14px;
+  color: white;
+  border-radius: 6px;  
+  margin: 15px;
+  cursor: pointer;
+  background-color: blue;
+}
+.App-header {
+  background-color: white;
+  max-height: 10vh;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border-bottom: #bfa161 solid 1px;
+}
+.toss-logo {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  max-height: 20px;
+  
+}
 .App-link {
   color: #61dafb;
 }
